@@ -1,0 +1,58 @@
+@import url(./grid.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.logo {
+    padding: 1rem;
+    background-color: #7FFFD4;
+}
+
+.menu {
+    padding: 1rem;
+    background-color: #87CEFA;
+}
+
+.banner {
+    padding: 4rem;
+    background-color: red;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.bolum1,
+.bolum2,
+.bolum3 {
+    background-color: greenyellow;
+    border: 1px solid black;
+    height: calc(100vh - 330px);
+}
+
+.bolum4,
+.bolum5,
+.bolum6 {
+    background-color: tomato;
+    padding: 1rem;
+    border: 1px solid grey;
+}
+
+.footer {
+    background-color: violet;
+    padding: 2rem;
+}
